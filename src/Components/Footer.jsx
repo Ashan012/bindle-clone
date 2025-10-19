@@ -37,7 +37,7 @@ const DownloadSection = () => {
         {/* RIGHT PHONE */}
         <img
           src={assets.footerImg2}
-          alt="Phone Right"
+          alt="Phone ri8"
           className="absolute w-[220px] sm:w-[280px] md:w-[320px] lg:w-[360px] bottom-[-100px] right-[10%] md:right-[-10%] lg:right-[20%] rounded-[40px] shadow-2xl object-contain"
         />
       </div>
