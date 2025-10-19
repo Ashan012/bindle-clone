@@ -4,6 +4,14 @@ import AboutUs from "./AboutUs";
 import HowToInstall from "./HowToInstall";
 import Testimonials from "./Testinomial";
 import DonateSection from "./Donate";
-import Footer from "./Footer";
+import Footer from "./footer";
 
-export { Hero, Features, AboutUs, HowToInstall, Testimonials, DonateSection ,Footer};
+export {
+  Hero,
+  Features,
+  AboutUs,
+  HowToInstall,
+  Testimonials,
+  DonateSection,
+  Footer,
+};

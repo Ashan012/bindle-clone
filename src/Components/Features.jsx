@@ -1,38 +1,3 @@
-// import React from "react";
-// import { FeaturesContent } from "../assets/assets";
-
-// function Features() {
-//   return (
-//     <div className="w-full p-[5%]">
-//       <div className="text-center mb-10">
-//         <h1 className="text-[78.67px] font-semibold text-[#282722] tracking-[-5%] leading-[85px] pb-5">
-//           Features That Keep You Hooked!
-//         </h1>
-//         <p className="text-[26px] leading-[33px] font-semibold">
-//           Meet, Chat, Share – Anytime, Anywhere!
-//         </p>
-//       </div>
-//       <div className="flex gap-[42px] flex-wrap justify-center">
-//         {FeaturesContent.map((content, i) => (
-//           <div
-//             key={i}
-//             className="w-[400px] h-[244px] p-12 rounded-3xl text-center bg-[#F2F2F2] shadow-xl"
-//           >
-//             <h4 className="font-semibold text-2xl leading-9 tracking-[-4%] pb-4 text-[#1A293C]">
-//               {content.title}
-//             </h4>
-//             <p className="font-[300] text-[20px] leading-8 text-[#222222] ">
-//               {content.content}
-//             </p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Features;
-
 import React from "react";
 import { FeaturesContent } from "../assets/assets";
 

@@ -1,39 +1,3 @@
-// import React from "react";
-// import { assets } from "../assets/assets";
-
-// function Hero() {
-//   return (
-//     <div className="w-full h-[100vh] bg-[#FF5349]">
-//       <div className="h-[76px] w-full flex justify-center pt-5">
-//         <img src={assets.logo} className="object-fill " alt="logo" />
-//       </div>
-//       <section className="flex pt-10 px-20">
-//         <div className="flex-2/4 ">
-//           <div>
-//             <h1 className=" text-8xl leading-30 text-[#FAFAFA] font-semibold tracking-[-3%]">
-//               Stay Connected Stay Social Stay You!
-//             </h1>
-//           </div>
-//           <p className=" text-2xl leading-9 text-[#fafafa] font-semibold py-10">
-//             A place where friendships grow, communities thrive, and moments turn
-//             into unforgettable experiences. Whether you're looking to reconnect
-//             with old friends, build new relationships, or share what matters
-//             most to you – MyBindle is your home on the internet.
-//           </p>
-//           <button className="w-[243px] h-[76px] bg-[#F2F2F2] rounded-2xl text-[#FF5349] font-semibold text-[22px]">
-//             Get Started
-//           </button>
-//         </div>
-
-//         <div className="flex-2/4 pl-50">
-//           <img src={assets.HeaderPhone} className="h-[96vh]" alt="" />
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
-
-// export default Hero;
 
 import React from "react";
 import { assets } from "../assets/assets";

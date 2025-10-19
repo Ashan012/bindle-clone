@@ -1,20 +1,5 @@
 import React from "react";
-import { assets } from "../assets/assets";
-
-const miniFeatures = [
-  {
-    title: "🎥 Short Videos & Reels",
-    text: "Share engaging, bite-sized content that keeps everyone entertained.",
-  },
-  {
-    title: "🔔 Smart Notifications",
-    text: "Stay updated on what matters without the noise.",
-  },
-  {
-    title: "👥 Interest-Based Communities",
-    text: "Join groups and discussions that match your passion.",
-  },
-];
+import { assets, miniFeatures } from "../assets/assets";
 
 const AboutUs = () => {
   return (

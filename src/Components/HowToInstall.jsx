@@ -1,24 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const steps = [
-  {
-    number: "01",
-    title: "Download",
-    text: "Open Play Store or App Store",
-  },
-  {
-    number: "02",
-    title: "Install App",
-    text: "The app will install automatically.",
-  },
-  {
-    number: "03",
-    title: "Ready to Use",
-    text: "Sign up or log in to start exploring!",
-  },
-];
+import { steps } from "../assets/assets";
 
 const HowToInstall = () => {
   useEffect(() => {
