@@ -40,7 +40,7 @@ import { assets } from "../assets/assets";
 
 function Hero() {
   return (
-    <div className="w-full bg-[#FF5349] flex flex-col min-h-screen overflow-hidden">
+    <div className="w-full  xl:h-screen bg-[#FF5349] flex flex-col  ">
       {/* LOGO */}
       <div className="flex justify-center pt-6">
         <img
@@ -51,9 +51,9 @@ function Hero() {
       </div>
 
       {/* HERO SECTION */}
-      <section className="flex flex-col lg:flex-row items-center justify-between px-6 sm:px-10 lg:px-20 py-10 lg:py-16 flex-1">
+      <section className="flex flex-col lg:flex-row  justify-between px-6 sm:px-10 lg:px-20 py-10 lg:py-16 flex-1">
         {/* LEFT CONTENT */}
-        <div className="w-full lg:w-1/2 space-y-6 z-10 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 space-y-6 z-10  lg:text-left text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-[#FAFAFA] leading-tight tracking-tight drop-shadow-md">
             Stay Connected <br /> Stay Social <br /> Stay You!
           </h1>
@@ -77,7 +77,7 @@ function Hero() {
           <img
             src={assets.HeaderPhone}
             alt="hero-phone"
-            className="w-[420px] xl:w-[500px] object-contain drop-shadow-2xl"
+            className="h-[90vh] w-[420px] xl:w-[500px] object-contain drop-shadow-2xl"
           />
         </div>
       </section>

@@ -3,9 +3,9 @@ import { assets } from "../assets/assets";
 
 const DonateSection = () => {
   return (
-    <section className="relative bg-[#FF4E47] rounded-3xl p-8 md:p-16 flex flex-col md:flex-row items-center justify-between text-white max-w-6xl mx-auto my-20 shadow-2xl overflow-hidden">
+    <section className="relative bg-[#FF4E47] rounded-3xl p-8 md:p-16 flex flex-col md:flex-row items-center justify-between text-white max-w-6xl mx-5 lg:mx-auto my-20 shadow-2xl overflow-hidden">
       {/* LEFT CONTENT */}
-      <div className="md:w-1/2 space-y-6 z-10 text-center md:text-left">
+      <div className="lg:w-1/2 space-y-6 z-10 text-center md:text-left">
         <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
           Be the Reason <br /> Someone Smiles Today!
         </h2>
@@ -21,7 +21,7 @@ const DonateSection = () => {
       </div>
 
       {/* RIGHT IMAGES */}
-      <div className="hidden md:flex relative md:w-1/2 justify-center items-end mt-10 md:mt-0 h-[480px]">
+      <div className="hidden lg:flex relative md:w-1/2 justify-center items-end mt-10 md:mt-0 h-[480px]">
         {/* LEFT IMAGE */}
         <img
           src={assets.paymentMehthod}
@@ -33,7 +33,7 @@ const DonateSection = () => {
         <img
           src={assets.thankyou}
           alt="Thank you"
-          className="w-[300px] h-auto rounded-[50px] translate-y-[40%] ml-[-50px] shadow-2xl object-contain border-4 border-white/20"
+          className="w-[300px] h-auto rounded-[50px] translate-y-[40%] ml-[20px] shadow-2xl object-contain border-4 border-white/20"
         />
 
         {/* Glow Effect */}
